@@ -1,0 +1,24 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+	"scripts": {
+		"dev": "netlify-lambda serve src",
+		"build": "netlify-lambda build src"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnnyhykw/functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnnyhykw/functions/issues"
+  },
+  "homepage": "https://github.com/dnnyhykw/functions#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.15"
+  }
+}
