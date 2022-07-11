@@ -1,5 +1,8 @@
 exports.handler = async () => {
-	const data = { live: true }
+	const data = {
+		state: "before",
+		starttime: "",
+	}
 	return {
 		statusCode: 200,
 		body: JSON.stringify(data)
