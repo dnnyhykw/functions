@@ -1,9 +1,10 @@
 exports.handler = async (event) => {
 
 	const data = {
-		state: "during", //before, during, after, error
+		state: "error", //before, during, after, error
 		starttime: "2022/7/12 12:00:00",
-		text: "※表示に問題がある場合はページの再読み込みを試してみてください。",
+		text: "※現在、トラッキング作業におきまして予期せぬトラブルが発生しております。全力で復旧に努めておりますが、まだ回復の目処は立っておりません。今しばらくお待ちいただけますと幸いです。",
+		//"※表示に問題がある場合はページの再読み込みを試してみてください。",
 	}
 	return {
 		statusCode: 200,
