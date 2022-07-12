@@ -3,6 +3,7 @@ exports.handler = async (event) => {
 	const data = {
 		state: "during", //before, during, after
 		starttime: "123",
+		text: "※表示に問題がある場合はページの再読み込みを試してみてください。",
 	}
 	return {
 		statusCode: 200,
