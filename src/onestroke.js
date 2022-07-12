@@ -1,7 +1,7 @@
 exports.handler = async (event) => {
 
 	const data = {
-		state: "during", //before, during, after
+		state: "before", //before, during, after
 		starttime: "123",
 	}
 	return {
