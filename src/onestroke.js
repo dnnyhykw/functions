@@ -1,13 +1,15 @@
 exports.handler = async (event) => {
-	console.log(event);
 
 	const data = {
 		state: "before",
-		starttime: "",
+		starttime: "123",
 	}
 	return {
 		statusCode: 200,
-		body: JSON.stringify(data)
+		body: JSON.stringify(data),
+		headers: {
+			"access-control-allow-origin": "*",
+		},
 	};
 };
 /*
