@@ -1,13 +1,16 @@
-// exports.handler = async () => {
-// 	const data = {
-// 		state: "before",
-// 		starttime: "",
-// 	}
-// 	return {
-// 		statusCode: 200,
-// 		body: JSON.stringify(data)
-// 	};
-// };
+exports.handler = async (event) => {
+	console.log(event);
+
+	const data = {
+		state: "before",
+		starttime: "",
+	}
+	return {
+		statusCode: 200,
+		body: JSON.stringify(data)
+	};
+};
+/*
 exports.handler = async (event) => {
 	// https://dev.to/weaponxii/handling-cors-with-netlify-post-requests-39ld
 	const headers = {
@@ -33,3 +36,4 @@ exports.handler = async (event) => {
 		};
 	}
 };
+*/
