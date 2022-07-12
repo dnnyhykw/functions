@@ -5,7 +5,7 @@ exports.handler = async (event) => {
 	let textError2 = '※トラッキング作業におきまして予期せぬトラブルが発生しておりました。全力で復旧に努めましたが残念ながら回復不可能なエラーと判明した次第です。プロジェクトを応援してくださっているみなさまには大変ご不便をおかけしてしまい申し訳ありませんが、ご理解いただけますと幸いです。本チャレンジの結果につきましては本日中あるいは後日、こちらのページおよびレッドブル公式SNSアカウントにてお知らせいたしますので、引き続きご愛顧のほどお願い申し上げます。';
 
 	const data = {
-		state: "after", //before, during, after, error
+		state: "before", //before, during, after, error
 		starttime: "2022/7/12 12:00:00",
 		text: text1,
 	}
