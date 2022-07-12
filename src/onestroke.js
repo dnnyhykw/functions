@@ -2,7 +2,7 @@ exports.handler = async (event) => {
 
 	const data = {
 		state: "during", //before, during, after
-		starttime: "123",
+		starttime: "2022/7/12 12:00:00",
 		text: "※表示に問題がある場合はページの再読み込みを試してみてください。",
 	}
 	return {
