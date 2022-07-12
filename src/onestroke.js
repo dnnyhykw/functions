@@ -9,6 +9,7 @@ exports.handler = async (event) => {
 	const data = {
 		state: "during", //before, during, after, error
 		starttime: "2022/7/12 16:27:00",
+		showtime: false,
 		text: text1,
 	}
 	return {
