@@ -8,7 +8,7 @@ exports.handler = async (event) => {
 
 	const data = {
 		state: "during", //before, during, after, error
-		starttime: "2022/7/12 19:27:00",
+		starttime: "2022/7/12 16:27:00",
 		text: text1,
 	}
 	return {
